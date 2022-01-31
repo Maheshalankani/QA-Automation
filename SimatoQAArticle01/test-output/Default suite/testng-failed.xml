@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="QATest.AstroFormTest">
+        <methods>
+          <include name="Delete_Page"/>
+          <include name="VerifyAppDetailsPages"/>
+          <include name="EditSubCategory"/>
+          <include name="Edit_Category"/>
+          <include name="Reject_App_from_super_Admin"/>
+          <include name="Check_App_Status"/>
+          <include name="Login_Super_Admin_For_SubmitForConfig"/>
+          <include name="addpdf_with_Download_enable"/>
+          <include name="Delete_Category"/>
+          <include name="AddNewPage"/>
+          <include name="ChangeLookAndFeel"/>
+          <include name="web_config"/>
+          <include name="Report_A_Bug"/>
+          <include name="Edit_Page"/>
+          <include name="VerifyFrames"/>
+          <include name="AddNewCategory"/>
+          <include name="AddLogo"/>
+          <include name="EditForms"/>
+          <include name="VerifyPublishSection"/>
+          <include name="addpdf_withLoad_PDF_Download_disabled"/>
+          <include name="AddSubCategory"/>
+          <include name="VerifyConfigurationSection"/>
+          <include name="From_Manage_pages_Duplcate_pages"/>
+          <include name="Category_Order"/>
+          <include name="DeleteSubCategory"/>
+          <include name="Edit_PDF"/>
+          <include name="Add_Page_From_MangePages"/>
+          <include name="AddFAVIcon"/>
+          <include name="Submit_For_Approve_App_Again"/>
+        </methods>
+      </class> <!-- QATest.AstroFormTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
